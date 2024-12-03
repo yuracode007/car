@@ -1,0 +1,295 @@
+body {
+    background-color: rgba(101, 52, 216, 0.329);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+/* Header */
+
+.header-logo {
+    border-radius: 266px;
+    float: right;
+    width: 96px;
+    padding-right: 10px;
+}
+
+
+.nav-list {
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.nav-link {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(128, 19, 42);
+}
+
+
+.nav-link:hover{
+    color: rgb(67, 180, 22);
+    transition: all 0.5s;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+/* Main */
+
+.main-title{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Lexus */
+
+.article-lexus{
+  padding: 30px;
+  background-color: rgb(119, 57, 177);
+  border-radius: 3%;
+  height: 500px;
+  width: 100%;
+}
+
+.logo-lexus{
+    width: 100px;
+    
+}
+
+.title-lexus{
+text-align: center;
+font-size: 40px;
+padding-bottom: 5px;
+}
+
+/* Info-Lexus */
+
+.info-lexus{
+padding-bottom: 10px;
+}
+
+.history-title{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+
+
+/* Lexus-model */
+
+.lexus-model {
+    padding-bottom: 10px;
+}
+.lexus-section-title {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.lexus-model-description {
+    padding-bottom: 5px;
+}
+
+/* Revies */
+
+.lexus-reviews-section {
+    padding-bottom: 10px;
+}
+.lexus-reviews-title {
+    font-size: 20px;
+}
+.lexus-review {
+    padding-bottom: 5px;
+}
+.lexus-review-author {
+    padding-bottom: 20px;
+}
+
+
+/* Back */
+
+.lexus-back-to-menu {
+    
+    padding: 10px 20px;  
+    background-color: rgb(133, 108, 75);
+    color: white;  
+    font-size: 16px;  
+    border-radius: 5px;  
+    box-shadow: 0 4px 8px rgba(207, 9, 9, 0.1);  
+}
+
+.lexus-back-to-menu:hover{
+    background-color: rgb(184, 48, 131);
+    transition: all 1s;
+}
+
+.lexus-link{
+    padding-top: 15px;
+}
+
+/* Toyota */
+
+.article-toyota {
+    padding: 30px;
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(119, 57, 177);
+    border-radius: 3%;
+}
+
+.toyota-logo{
+    width: 30px;
+}
+
+.toyta-title {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+.toyota-info {
+    padding-bottom: 10px;
+}
+.toyota-history-title {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.toyota-model {
+    padding-bottom: 10px;
+}
+.toyota-section-title {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.toyota-model-description {
+    padding-bottom: 5px;
+}
+.toyota-reviews-section {
+    padding-bottom: 10px;
+}
+.toyota-reviews-title {
+    font-size: 20px;
+
+}
+
+.toyota-review-author {
+    font-size: 20px;
+}
+.toyota-link {
+    padding-top: 15px;
+}
+.toyota-back-to-menu {
+    padding: 10px 20px;  
+    background-color: rgb(158, 158, 158);
+    color: white;  
+    font-size: 16px;  
+    border-radius: 5px;  
+    box-shadow: 0 4px 8px rgba(207, 9, 9, 0.1);  
+ 
+}
+
+
+.toyota-back-to-menu:hover {
+    background-color: rgb(46, 44, 172);
+    transition: all 1s;
+}
+
+/* BMW */
+
+.article-bmw {
+    padding: 30px;
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: rgb(60, 26, 92);
+    border-radius: 3%;
+}
+
+.bmw-logo{
+    width: 40px;
+}
+
+.bmw-title {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+
+/* Info-BMW */
+
+.bmw-info {
+    padding-bottom: 10px;
+}
+
+
+
+.bmw-history-title {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+
+/* Model-BMW */
+
+.bmw-model {
+    padding-bottom: 10px;
+}
+
+.bmw-section-title {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.bmw-model-title {
+    font-size: 20px;
+
+}
+.bmw-model-description {
+    padding-bottom: 5px;
+}
+
+/* Revies */
+
+.bmw-reviews-section {
+    padding-bottom: 10px;
+}
+.bmw-reviews-title {
+    font-size: 20px;
+
+}
+
+
+.bmw-review-author {
+    font-size: 20px;
+}
+.bmw-link {
+    padding-top: 15px;
+}
+
+/* Back */
+
+.bmw-back-to-menu {
+    padding: 10px 20px;  
+    background-color: rgb(199, 124, 26);
+    color: white;  
+    font-size: 16px;  
+    border-radius: 5px;  
+    box-shadow: 0 4px 8px rgba(207, 9, 9, 0.1);  
+}
+
+.bmw-back-to-menu:hover {
+    background-color: rgb(63, 150, 51);
+    transition: all 1s;
+}
