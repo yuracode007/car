@@ -201,7 +201,48 @@ main{
     transition: all 1s;
 }
 
+
+/* Table */
+
+.car-table{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+caption{
+    padding-top: 10px;
+}
+
+table {
+
+    border-spacing: 4px; 
+    border: 2px solid teal; 
+}
+
+caption {
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+th, td {
+    border: 2px solid teal; 
+    padding: 1px; 
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+td {
+    width: 40px;
+    height: 20px; /* Робимо їх прямокутними */
+}
+
+
 /* Footer */
+
 
 footer{
     background-color: #dd9898;
