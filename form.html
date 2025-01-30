@@ -10,107 +10,79 @@
     <form>
         <fieldset>
             <legend>Personal info</legend>
-            <table>
-                <tr>
-                    <td><label for="first-name">First Name:</label></td>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td><label for="last-name">Last Name:</label></td>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td><label for="birthday">Birthday:</label></td>
-                    <td><input type="date"></td>
-                </tr>
-                <tr>
-                    <td><label>Gender:</label></td>
-                    <td>
-                        <label><input type="radio"  value="male"> Male</label>
-                        <label><input type="radio"  value="female"> Female</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="driver-experience">Drive experience:</label></td>
-                    <td>
-                        <select id="driver-experience" name="driver-experience">
-                            <option value="">---</option>
-                            <option value="beginner">Beginner</option>
-                            <option value="intermediate">Intermediate</option>
-                            <option value="expert">Expert</option>
-                        </select>
-                    </td>
-                </tr>
-            </table>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name">
+            
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name">
+            
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            
+            <label>Gender:</label>
+            <div class="inline-group">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </div>
+            
+            <label for="driver-experience">Drive experience:</label>
+            <select id="driver-experience" name="driver-experience">
+                <option value="">---</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="expert">Expert</option>
+            </select>
         </fieldset>
-
+        
         <fieldset>
             <legend>Contacts</legend>
-            <table>
-                <tr>
-                    <td><label for="email">Email:</label></td>
-                    <td><input type="email"></td>
-                </tr>
-                <tr>
-                    <td><label for="phone">Phone:</label></td>
-                    <td><input type="tel" ></td>
-                </tr>
-                <tr>
-                    <td><label for="address">Address:</label></td>
-                    <td><textarea  name="address"></textarea></td>
-                </tr>
-            </table>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="address">Address:</label>
+            <textarea id="address" name="address"></textarea>
         </fieldset>
-
+        
         <fieldset>
             <legend>Car info</legend>
-            <table>
-                <tr>
-                    <td><label for="brand">Brand:</label></td>
-                    <td>
-                        <select id="brand" name="brand">
-                            <option value="">---</option>
-                            <option value="toyota">Lexus</option>
-                            <option value="ford">Toyota</option>
-                            <option value="bmw">BMW</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="model">Model:</label></td>
-                    <td>
-                        <select id="model" name="model">
-                            <option value="">---</option>
-                            <option value="sedan">RX 500h</option>
-                            <option value="suv">ES 300H</option>
-                            <option value="truck">Corolla</option>
-                            <option value="sedan">RAV4</option>
-                            <option value="suv">X5</option>
-                            <option value="truck">3 Series</option>
-                            
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="used">Used:</label></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td><label>Color:</label></td>
-                    <td>
-                        <label><input type="radio" name="color" value="red"> Red</label>
-                        <label><input type="radio" name="color" value="black"> Black</label>
-                        <label><input type="radio" name="color" value="blue"> Blue</label>
-                        <label><input type="radio" name="color" value="white"> White</label>
-                        <label><input type="radio" name="color" value="grey"> Grey</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="price">Price:</label></td>
-                    <td><input type="range" min="0" max="100000" step="1000"></td>
-                </tr>
-            </table>
+            <label for="brand">Brand:</label>
+            <select id="brand" name="brand">
+                <option value="">---</option>
+                <option value="toyota">Lexus</option>
+                <option value="ford">Toyota</option>
+                <option value="bmw">BMW</option>
+            </select>
+            
+            <label for="model">Model:</label>
+            <select id="model" name="model">
+                <option value="">---</option>
+                <option value="sedan">RX 500h</option>
+                <option value="suv">ES 300H</option>
+                <option value="truck">Corolla</option>
+                <option value="sedan">RAV4</option>
+                <option value="suv">X5</option>
+                <option value="truck">3 Series</option>
+            </select>
+            
+            <label for="used">Used:</label>
+            <input type="checkbox" id="used" name="used">
+            
+            <label>Color:</label>
+            <div class="inline-group">
+                <label><input type="radio" name="color" value="red"> Red</label>
+                <label><input type="radio" name="color" value="black"> Black</label>
+                <label><input type="radio" name="color" value="blue"> Blue</label>
+                <label><input type="radio" name="color" value="white"> White</label>
+                <label><input type="radio" name="color" value="grey"> Grey</label>
+            </div>
+            
+            <label for="price">Price:</label>
+            <input type="range" id="price" name="price" min="0" max="100000" step="1000">
         </fieldset>
+        
         <div class="buttons">
             <button type="button">Cancel</button>
             <button type="submit">Ok</button>
